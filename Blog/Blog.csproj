@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App">
-      <Version>2.2</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2" PrivateAssets="All" />
     <PackageReference Include="NpgSql.EntityFrameworkCore.PostgreSQL" Version="2.2.0" />

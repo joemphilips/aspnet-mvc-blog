@@ -34,7 +34,6 @@ namespace Blog
       });
       services.AddDbContext<AppDbContext>(options => { options.UseNpgsql(""); });
 
-
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
     }
 

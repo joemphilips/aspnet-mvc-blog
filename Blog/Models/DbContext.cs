@@ -8,6 +8,10 @@ namespace Blog.Models
     public DbSet<Category> Category { get; set; }
     public DbSet<Tag> Tag { get; set; }
 
+    public AppDbContext(DbContextOptions<DbContext> options) : base(options)
+    {
+    }
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
       builder.Entity<Post>()
